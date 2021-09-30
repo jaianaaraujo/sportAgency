@@ -26,7 +26,7 @@ body{
 }
 
 .logo{
-    margin-right: 70%;
+    margin-right: 50%;
     letter-spacing: 5px;
 }
 
@@ -37,6 +37,13 @@ body{
 .navegacao a {
     text-decoration: none;
     color: #fff;
+}
+
+.navegacao a:hover{
+    background-color: #fff;
+    color: #111;
+    padding: 8px;
+    border-radius: 10px;
 }
 
 
