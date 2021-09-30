@@ -35,16 +35,35 @@ body::-webkit-scrollbar {
 .logo{
     margin-right: 70%;
     letter-spacing: 5px;
+    animation-name: animacao;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
 }
+
+.logo-editar{
+    background-color: #fff;
+    padding: 5px;
+    border-radius: 10px;
+    color: #111;
+    text-decoration: none;
+}
+.logo-editar:hover {
+    background-color: #111;
+    padding: 5px;
+    border-radius: 10px;
+    color: #fff;
+} 
 
 .navegacao  {
-    word-spacing: 35px 
-}
-
-.navegacao a {
+    word-spacing: 35px;
     text-decoration: none;
     color: #fff;
 }
+
+/* .navegacao a {
+    text-decoration: none;
+    color: #fff;
+} */
 
 .navegacao a:hover{
     background-color: #fff;
@@ -156,5 +175,22 @@ ul li a{
     position: absolute;
     color: #fff;
     text-align: center;
+}
+
+
+
+/* ANIMAÇÕES */
+
+@keyframes animacao {
+    from{
+        margin-right: 60%;
+        letter-spacing: 5px;
+    }
+   
+    to{
+        margin-right: 50%;
+        letter-spacing: 8px;
+    }
+
 }
 
