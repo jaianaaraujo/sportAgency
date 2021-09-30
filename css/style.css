@@ -46,6 +46,13 @@ body::-webkit-scrollbar {
     color: #fff;
 }
 
+.navegacao a:hover{
+    background-color: #fff;
+    color: #111;
+    padding: 8px;
+    border-radius: 10px;
+}
+
 
 .conteudo{
     color: #777;
@@ -113,11 +120,13 @@ ul li {
 ul li a:hover {
     background-color: #777;
     color: #fff;
+    padding: 10px;
 }
 
 ul li a{
    text-decoration: none;
    color: #777;
+   border-radius: 10px;
 
 }
 
